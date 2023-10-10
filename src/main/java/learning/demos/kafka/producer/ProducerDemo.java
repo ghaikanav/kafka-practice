@@ -1,4 +1,4 @@
-package io.conduktor.demos.kafka;
+package learning.demos.kafka.producer;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -16,7 +16,7 @@ public class ProducerDemo {
         // create Producer Properties
         Properties properties = new Properties();
 
-        // connect to Conduktor Playground
+        // connect to local kafka
         properties.setProperty("bootstrap.servers", "localhost:29092");
 
         // set Producer properties

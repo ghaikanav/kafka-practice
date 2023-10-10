@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88a95a55-542b-4a43-b165-1129e7eb1427" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/learning/demos/kafka/consumer/ConsumerDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/conduktor/demos/kafka/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/demos/kafka/producer/ProducerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/demos/kafka/producer/ProducerDemoWithCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/conduktor/demos/kafka/ProducerDemoWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/learning/demos/kafka/producer/ProducerDemoWithKeys.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,20 @@
       <recent name="io.conduktor.demos.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerDemoWithKeys">
+  <component name="RunManager" selected="Application.ConsumerDemo">
+    <configuration name="ConsumerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.demos.kafka.consumer.ConsumerDemo" />
+      <module name="kafka-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.demos.kafka.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.conduktor.demos.kafka.ProducerDemo" />
       <module name="kafka-practice" />
@@ -94,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.ProducerDemoWithKeys" />
         <item itemvalue="Application.ProducerDemoWithCallback" />
         <item itemvalue="Application.ProducerDemo" />
